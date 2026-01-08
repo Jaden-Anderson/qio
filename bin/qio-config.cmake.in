@@ -9,20 +9,20 @@
 #
 # copied from qmp-config
 
-prefix=$(dirname "$0")/..
+prefix="@QIO_PREFIX@"
 version="@PROJECT_VERSION@"
 
 qio_parallel_arch="@PARALLEL_ARCH@"
 qio_cc="@CMAKE_C_COMPILER@"
-qio_cflags="-I$prefix/include"
-qio_ldflags="-L$prefix/lib -Wl,-rpath=$prefix/lib"
+qio_cflags="-I$prefix/include @QMP_CFLAGS@"
+qio_ldflags="-L$prefix/lib -Wl,-rpath=$prefix/lib @QMP_LDFLAGS@"
 if test "X@CLime_LIBDIR@" != "X";
 then
   qio_cflags=$qio_cflags" -I@CLime_INCDIR@"
-  qio_ldflags=$qio_ldflags" -L@CLime_LIBDIR@ -Wl.-rpath=@CLime_LIBDIR@"
+  qio_ldflags=$qio_ldflags" -L@CLime_LIBDIR@ -Wl,-rpath=@CLime_LIBDIR@"
 fi
- 
-qio_libs="-lqio -llime"
+
+qio_libs="-lqio -llime @QMP_LIBS@"
 qio_ranlib="@CMAKE_RANLIB@"
 qio_ar="@CMAKE_AR@"
 
