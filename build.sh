@@ -1,0 +1,16 @@
+#!/bin/bash
+cmake "/ustcfs/LQCD/wangtx/QCDMP/src" \
+  -DCMAKE_INSTALL_PREFIX="/ustcfs/LQCD/wangtx/QCDMP/qmp" \
+  -DQMP_MPI=ON \
+  -DQMP_PROFILING=OFF \
+  -DQMP_TIMING=OFF \
+  -DQMP_EXTRA_DEBUG=OFF \
+  -DQMP_TESTING=ON \
+  -DQMP_BUILD_DOCS=OFF \
+  -DQMP_ENABLE_SANITIZERS=OFF \
+  -DQMP_USE_DMALLOC=OFF \
+  -DQMP_BGQ=OFF \
+  -DQMP_BGSPI=OFF \
+  -DCMAKE_BUILD_TYPE=Release \
+  -DMPI_C_COMPILER="/ustcfs/LQCD/wangtx/OpenMPI/ompi/bin/mpicc" \
+  -DCMAKE_C_FLAGS="-O3 -fPIC"
