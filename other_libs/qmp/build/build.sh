@@ -1,0 +1,16 @@
+#!/bin/bash
+cmake .. \
+  -DCMAKE_INSTALL_PREFIX=/path/to/your/install/directory \
+  -DQMP_MPI=ON \
+  -DQMP_PROFILING=OFF \
+  -DQMP_TIMING=OFF \
+  -DQMP_EXTRA_DEBUG=OFF \
+  -DQMP_TESTING=ON \
+  -DQMP_BUILD_DOCS=OFF \
+  -DQMP_ENABLE_SANITIZERS=OFF \
+  -DQMP_USE_DMALLOC=OFF \
+  -DQMP_BGQ=OFF \
+  -DQMP_BGSPI=OFF \
+  -DCMAKE_BUILD_TYPE=Release \
+  -DMPI_C_COMPILER=mpicc \
+  -DCMAKE_C_FLAGS="-O3 -fPIC"

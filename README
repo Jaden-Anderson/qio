@@ -11,4 +11,4 @@ Changes to be committed:
 	modified:   CMakeLists.txt
 	modified:   bin/qio-config.cmake.in
 
-See https://github.com/Jaden-Anderson/qio/blob/master/patch.qio-v3.0.0-release.diff
+See build/patch.qio-v3.0.0-release.diff
