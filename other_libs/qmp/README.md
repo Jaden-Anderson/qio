@@ -5,6 +5,6 @@ Committer: WANG Ting-Xiao <wangtx@ihep.ac.cn>
 
 On branch qmp-v2.5.3-release
 Changes to be committed:
-	modified:   bin/qmp-config.cmake.in
+- modified:   bin/qmp-config.cmake.in
 
 See <a href=build/patch.qmp-v2.5.3-release.diff>build/patch.qmp-v2.5.3-release.diff</a>
