@@ -7,4 +7,4 @@ On branch qmp-v2.5.3-release
 Changes to be committed:
 	modified:   bin/qmp-config.cmake.in
 
-See <a href=build/patch.qmp-v2.5.3-release.diff>href=build/patch.qmp-v2.5.3-release.diff</a>
+See <a href=build/patch.qmp-v2.5.3-release.diff>build/patch.qmp-v2.5.3-release.diff</a>
