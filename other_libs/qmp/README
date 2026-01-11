@@ -1,0 +1,10 @@
+local: enable full CMake build for QMP 2.5.3
+- Add MPI dependency to bin/qmp-config installed
+
+Committer: WANG Ting-Xiao (Advisor: LIU Zhaofeng) <wangtx@ihep.ac.cn>
+
+On branch qmp-v2.5.3-release
+Changes to be committed:
+	modified:   bin/qmp-config.cmake.in
+
+See build/patch.qmp-v2.5.3-release.diff
