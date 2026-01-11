@@ -1,4 +1,4 @@
-local: enable full CMake build for QMP 2.5.3
+local: add MPI dependency injection to QMP 2.5.3
 - Add MPI dependency to <a href=bin/qmp-config>bin/qmp-config</a> installed
 
 Committer: WANG Ting-Xiao <wangtx@ihep.ac.cn>
