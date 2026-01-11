@@ -4,7 +4,7 @@ local: enable full CMake build for QIO 3.0.0
 - Add QMP dependency injection via CMake target introspection
 - Use absolute paths in qio-config script
 
-Committer: Wang Ting-Xiao <wangtx@ihep.ac.cn>
+Committer: WANG Ting-Xiao <wangtx@ihep.ac.cn>
 
 On branch qio-v3.0.0-release
 Changes to be committed:
